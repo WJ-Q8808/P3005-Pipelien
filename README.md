@@ -10,11 +10,6 @@ server run test
 #ces1
 
 
-this is newmaster2
-Newmaster2
-adsfa
-jsjjsjs
-
 concel:#17 All 很大声 ending is a new beginning, just don't know at that time All the ending i
 
 We couldn’t deliver this payload: failed to connect
