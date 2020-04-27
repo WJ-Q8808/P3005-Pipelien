@@ -6,8 +6,7 @@ test for pull request trigger
 003打算打底衫
 随便提交一点东撒打算的
 server run test
-##test again阿大大的2
-提交测试一下
+
 #ces1
 
 
