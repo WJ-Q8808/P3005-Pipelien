@@ -1,7 +1,6 @@
 Test a DevOps add
 
 #test for pull request trigger
-阿大
 
 
 #ces1
