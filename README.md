@@ -1,8 +1,6 @@
 Test a DevOps add
 
-test for pull request trigger
-
-打算
+#test for pull request trigger
 
 
 
