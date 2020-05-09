@@ -1,6 +1,6 @@
 public class StringCompareEmp{
    public static void main(String args[]){
-      String str = "Hello ";
+      String str = "Hello wo";
       String anotherString = "hello world";
       Object objStr = str;
  
