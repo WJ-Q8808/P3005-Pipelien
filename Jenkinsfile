@@ -3,7 +3,7 @@ pipeline {
     stages {
        stage('Build') {
              steps {
-                echo '编译'
+                echo '编译1'
             }
         }
        stage('代码编译') {
