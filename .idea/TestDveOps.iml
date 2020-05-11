@@ -11,5 +11,6 @@
     <orderEntry type="module" module-name="wecha-reminder" />
     <orderEntry type="module" module-name="master" />
     <orderEntry type="module" module-name="wechat-reminder" />
+    <orderEntry type="module" module-name="charlesorgtestOrgtest" />
   </component>
 </module>
