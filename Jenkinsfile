@@ -13,7 +13,7 @@ pipeline {
                //sh 'ps'
             //}
             echo 'Build runing'
-            sh "ls"
+            sh "pwd"
          }
       }
       stage('Code Review'){
