@@ -30,7 +30,7 @@ pipeline {
             branch 'master'
          }
          steps {
-           sleep 15
+           sleep 360
            echo "runing master"
          }
       }
@@ -38,9 +38,9 @@ pipeline {
          environment {Description="This is "}
          steps{
             script{
-               if (env.GIT_BRANCH == 'origin/master'){
+               if (env.GIT_BRANCH == 'origin/F2048'){
                   echo "${Description}${BranchName}"
-                  //sleep 25
+                  sleep 25
                   sh "ls"
                }
             }
