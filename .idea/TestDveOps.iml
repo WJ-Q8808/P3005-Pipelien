@@ -12,5 +12,7 @@
     <orderEntry type="module" module-name="master" />
     <orderEntry type="module" module-name="wechat-reminder" />
     <orderEntry type="module" module-name="charlesorgtestOrgtest" />
+    <orderEntry type="module" module-name="shopping-api-App" />
+    <orderEntry type="module" module-name="shopping-project-App" />
   </component>
 </module>
