@@ -21,7 +21,7 @@ pipeline {
            echo "This is Codeing......"
            sleep 15
            sh "pwd"
-           echo "runing master"
+           echo "1runing master"
          }
       }
       stage('Test runing'){
