@@ -23,7 +23,7 @@ pipeline {
                   branch "master"
                }
                 steps {
-                   echo '代码分析完成...'
+                   echo '所属代码分析完成...'
                   }
                }
            }
