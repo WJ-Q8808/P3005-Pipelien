@@ -19,7 +19,7 @@ pipeline {
       stage('Code review'){
          steps {
            echo "This is Codeing......"
-           //sleep 15
+           sleep 15
            sh "pwd"
            echo "runing master"
            //sh "pwd"
