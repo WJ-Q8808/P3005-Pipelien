@@ -1,14 +1,14 @@
 pipeline {
    agent any
    environment {
-       BranchName="master"
+       BranchName="F2048"
    }
    stages {
       stage('Start build') {
          steps {
             echo 'pwd'
             //sleep 360
-            //sleep 10
+            //sleep 30
             //dir('/var/jenkins_home/workspace') {
                //sh 'ps'
             //}
@@ -16,21 +16,21 @@ pipeline {
             sh "ps -a"
          }
       }
-      stage('Code review') {
+      stage('Code review'){
          steps {
            echo "This is Codeing......"
            //sleep 15
            sh "pwd"
            echo "runing master"
-           //sleep 15
+           //sh "pwd"
          }
       }
-      stage('Test runing') {
+      stage('Test runing'){
          when {
-            branch 'master'
+            branch 'F2048'
          }
          steps {
-           //sleep 360
+           //sleep 15
            echo "runing master"
          }
       }
