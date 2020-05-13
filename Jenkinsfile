@@ -8,15 +8,15 @@ pipeline {
          steps {
             echo 'pwd'
             //sleep 360
-            sleep 10
+            //sleep 10
             //dir('/var/jenkins_home/workspace') {
                //sh 'ps'
             //}
-            echo 'Build runing1'
+            echo 'Build runing'
             sh "ps -a"
          }
       }
-      stage('Code review'){
+      stage('Code review') {
          steps {
            echo "This is Codeing......"
            //sleep 15
@@ -25,7 +25,7 @@ pipeline {
            //sleep 15
          }
       }
-      stage('Test runing'){
+      stage('Test runing') {
          when {
             branch 'master'
          }
