@@ -14,5 +14,7 @@
     <orderEntry type="module" module-name="charlesorgtestOrgtest" />
     <orderEntry type="module" module-name="shopping-api-App" />
     <orderEntry type="module" module-name="shopping-project-App" />
+    <orderEntry type="module" module-name="GitLab-api" />
+    <orderEntry type="module" module-name="GitLab-project" />
   </component>
 </module>

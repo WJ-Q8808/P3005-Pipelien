@@ -8,7 +8,7 @@ pipeline {
          steps {
             echo 'pwd'
             //sleep 360
-            sleep 30
+            sleep 10
             //dir('/var/jenkins_home/workspace') {
                //sh 'ps'
             //}
@@ -19,10 +19,10 @@ pipeline {
       stage('Code review'){
          steps {
            echo "This is Codeing......"
-           sleep 15
+           //sleep 15
            sh "pwd"
            echo "runing master"
-           sleep 15
+           //sleep 15
          }
       }
       stage('Test runing'){
@@ -30,7 +30,7 @@ pipeline {
             branch 'master'
          }
          steps {
-           sleep 360
+           //sleep 360
            echo "runing master"
          }
       }
@@ -40,7 +40,7 @@ pipeline {
             script{
                if (env.GIT_BRANCH == 'origin/F2048'){
                   echo "${Description}${BranchName}"
-                  sleep 25
+                  //sleep 25
                   sh "ls"
                }
             }
