@@ -12,7 +12,7 @@ pipeline {
             //dir('/var/jenkins_home/workspace') {
                //sh 'ps'
             //}
-            echo '1Build runing'
+            echo 'Build runing'
             sh "pwd"
          }
       }
