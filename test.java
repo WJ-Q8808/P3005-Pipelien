@@ -1,7 +1,7 @@
 public class StringCompareEmp{
    public static void main(String args[]){
-      String str = "Hello World";
-      String anotherString = "Hello world";
+      String str = "Hello World ddd";
+      String anotherString = "Hello world ddd";
       Object objStr = str;
  
       System.out.println( str.compareTo(anotherString) );
