@@ -31,7 +31,7 @@ pipeline {
             branch 'F2048'
          }
          steps {
-           //sleep 15
+           sleep 15
            echo "runing master"
          }
       }
