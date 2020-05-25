@@ -1,6 +1,10 @@
 Test a DevOps add
 
-test for pull request trigger
+test for pull  还有咩哟就到拉萨就看了多少斤啊哭了多久萨克雷
+
+大傻老婆绿卡吗8-9你打算家
+
+request trigger
 
 #22 新得 commit 测试 - test-devops   
 
