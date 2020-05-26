@@ -22,7 +22,7 @@ pipeline {
            //sleep 15
            //sleep 15
            echo "1runing master"
-           //sh "pwd"
+           sh "python3 Count_date.py"
          }
       }
       stage('Test runing'){
