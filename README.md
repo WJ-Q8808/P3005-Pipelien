@@ -19,12 +19,3 @@
 #asdasd12
 #!@!@!@
 #22ssssa
-#asdasd12
-#asdasd12
-#!@!@!@
-#22ssssa
-#asdasd12
-#asdasd12
-#!@!@!@
-#22ssssa
-#asdasd12
