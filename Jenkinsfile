@@ -8,7 +8,7 @@ pipeline {
          steps {
             echo 'pwd'
             //sleep 360
-            //sleep 30
+            //sleep 1
             //dir('/var/jenkins_home/workspace') {
                //sh 'ps'
             //}
