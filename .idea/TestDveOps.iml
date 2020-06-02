@@ -17,5 +17,6 @@
     <orderEntry type="module" module-name="GitLab-api" />
     <orderEntry type="module" module-name="GitLab-project" />
     <orderEntry type="module" module-name="selenium" />
+    <orderEntry type="module" module-name="siGitLab-001" />
   </component>
 </module>

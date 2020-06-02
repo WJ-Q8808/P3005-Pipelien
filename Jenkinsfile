@@ -8,7 +8,7 @@ pipeline {
          steps {
             echo 'pwd'
             //sleep 360
-            sleep 21
+            //sleep 21
             //dir('/var/jenkins_home/workspace') {
                //sh 'ps'
             //}
@@ -20,7 +20,7 @@ pipeline {
          steps {
            echo "This is Codeing......"
            //sleep 30
-           sleep 15
+           //sleep 15
            echo "1runing master"
            //sh "python3 Count_date.py"
          }
@@ -30,7 +30,7 @@ pipeline {
             branch 'F2048'
          }
          steps {
-           sleep 15
+           //sleep 15
            echo "runing master"
          }
       }
