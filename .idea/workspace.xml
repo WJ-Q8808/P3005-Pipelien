@@ -27,7 +27,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../GitLab-api" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1XeVmXDr9Nfxca4b2CrghB4kgCU" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -55,7 +55,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Hello">
+  <component name="RunManager" selected="Python.weely">
     <configuration name="Hello" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TestDveOps" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -185,8 +185,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Hello" />
         <item itemvalue="Python.weely" />
+        <item itemvalue="Python.Hello" />
         <item itemvalue="Python.test_api" />
       </list>
     </recent_temporary>
