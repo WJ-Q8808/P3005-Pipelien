@@ -20,6 +20,7 @@ def set_type(datatype):
 def count_number(start):
     add_number = 0
     add_number =+ start
+    print(add_number)
     return add_number
 
 

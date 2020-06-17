@@ -54,7 +54,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.weely">
+  <component name="RunManager" selected="Python.Hello">
     <configuration name="Hello" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TestDveOps" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -184,8 +184,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.weely" />
         <item itemvalue="Python.Hello" />
+        <item itemvalue="Python.weely" />
         <item itemvalue="Python.test_api" />
       </list>
     </recent_temporary>
