@@ -17,7 +17,11 @@ def set_type(datatype):
      SetList = list(set(Exeamplelist))
      return SetList
 
+def count_number(start):
+    add_number = 0
+    add_number =+ start
+    return add_number
+
+
 if __name__ == '__main__':
-    type_list = ["bc","bc","权限","leixing"]
-    print(set_type(type_list))
-    print(opt_date(2r))
+    count_number(2)
