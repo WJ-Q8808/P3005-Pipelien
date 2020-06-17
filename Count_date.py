@@ -23,6 +23,12 @@ def count_number(start):
     print(add_number)
     return add_number
 
+def count_str(start):
+    add_number = 0
+    add_number =+ start
+    print(add_number)
+    return add_number
+
 
 if __name__ == '__main__':
     count_number(2)
