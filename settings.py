@@ -20,12 +20,22 @@ def get_databases_user_password(databases_settings):
 def get_databases(databases_settings):
     databases_key = databases_settings.keys()
     databases_value = databases_settings.values()
-    print(databases_key,databases_value)
+    print(databases_key)
+    print(databases_value)
     return databases_key
 
 def get_data(databases_settings):
     databases_key = databases_settings.keys()
     databases_value = databases_settings.values()
+    print(databases_key)
+    print(databases_value)
+    return databases_key,databases_value
+
+def get_databas(databases_settings):
+    databases_key = databases_settings.keys()
+    databases_value = databases_settings.values()
+    print(databases_key)
+    print(databases_value)
     return databases_key,databases_value
 
 import ssl
