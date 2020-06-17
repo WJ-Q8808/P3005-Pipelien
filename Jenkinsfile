@@ -1,50 +1,29 @@
 pipeline {
-   agent any
-   environment {
-       BranchName="Newmaster2"
-   }
-   stages {
-      stage('Start build') {
-         steps {
-            echo 'pwd'
-            //sleep 360
-            sleep 30
-            //dir('/var/jenkins_home/workspace') {
-               //sh 'ps'
-            //}
-            echo 'Build runing'
-            sh "pppppp"
-         }
-      }
-      stage('Code.......'){
-         steps {
-           echo "This is Codeing......"
-           sleep 15
-           //sh "ls -l"
-           //sh "pwd"
-           echo "runing master"
-         }
-      }
-      stage('Test runing'){
-         when {
-            branch 'master'
-         }
-         steps {
-           //sleep 15
-           echo "runing master"
-         }
-      }
-      stage('Deploy ending') {
-         environment {Description="This is "}
-         steps{
-            script{
-               if (env.GIT_BRANCH == 'origin/Newmaster2'){
-                  echo "${Description}${BranchName}"
-                  //sleep 25
-                  sh "ls"
-               }
+    agent any
+    stages {
+        stage('SCM') {
+            steps {
+                git url: 'https://github.com/WJ-Q8808/shopping-api-Appt'
             }
-         }
-      }
-   }
+        }
+        stage('build && SonarQube analysis') {
+            steps {
+                withSonarQubeEnv('sonarquebe-wujian') {
+                    // Optionally use a Maven environment you've configured already
+                    //withMaven(maven:'Maven 3.5') {
+                        //sh 'mvn clean package sonar:sonar'
+                    }
+                }
+            }
+        }
+        stage("Quality Gate") {
+            steps {
+                timeout(time: 1, unit: 'HOURS') {
+                    // Parameter indicates whether to set pipeline to UNSTABLE if Quality Gate fails
+                    // true = set pipeline to UNSTABLE, false = don't
+                    waitForQualityGate abortPipeline: true
+                }
+            }
+        }
+    }
 }
