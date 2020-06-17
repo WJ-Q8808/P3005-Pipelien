@@ -12,5 +12,12 @@ def opt_date(number):
         print(new_time)
         return old_date_str
 
+ def SetType(datatype):
+     Exeamplelist = datatype
+     SetList = list(set(Exeamplelist))
+     return SetList
+
 if __name__ == '__main__':
-    opt_date(1)
+    type_list = ["bc","bc","权限","leixing"]
+    print(SetType(type_list))
+    print(opt_date(-1))
