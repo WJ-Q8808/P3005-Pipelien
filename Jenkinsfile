@@ -1,17 +1,12 @@
 pipeline {
     agent any
     stages {
-        stage('SCM') {
-            steps {
-                git url: 'https://github.com/WJ-Q8808/shopping-api-Appt'
-            }
-        }
         stage('build && SonarQube analysis') {
             steps {
                 withSonarQubeEnv('sonarquebe-wujian') {
                     // Optionally use a Maven environment you've configured already
                     //withMaven(maven:'Maven 3.5') {
-                        //sh 'mvn clean package sonar:sonar'
+                    sh 'mvn clean package sonar:sonar'
                     }
                 }
             }
