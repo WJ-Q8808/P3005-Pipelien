@@ -16,3 +16,14 @@ def get_databases_user_password(databases_settings):
     databases_value = databases_settings.values()
     print(databases_key,databases_value)
     return
+
+import ssl
+
+ctx = ssl._create_unverified_context() # Noncompliant: by default hostname verification is not done
+ctx = ssl._create_stdlib_context() # Noncompliant: by default hostname verification is not done
+
+ctx = ssl.create_default_context()
+ctx.check_hostname = False # Noncompliant
+
+ctx = ssl._create_default_https_context()
+ctx.check_hostname = False # Noncompliant
