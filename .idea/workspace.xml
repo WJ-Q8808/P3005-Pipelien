@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a190d58c-ffb4-42f1-bf9d-1d35f65a9c00" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../SY-GitLab-api/shopping-api-app" beforeDir="false" afterPath="$PROJECT_DIR$/../SY-GitLab-api/shopping-api-app" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Count_date.py" beforeDir="false" afterPath="$PROJECT_DIR$/Count_date.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../robot/wujian/robot/.idea/master.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../robot/wujian/robot/.idea/master.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../robot/wujian/robot/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../robot/wujian/robot/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../robot/wujian/robot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../robot/wujian/robot/.idea/workspace.xml" afterDir="false" />
@@ -30,7 +28,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1XeVmXDr9Nfxca4b2CrghB4kgCU" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../robot/desk-issue/wecha-reminder/ones-tools/wechat-reminder" />
   </component>
