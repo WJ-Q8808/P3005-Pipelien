@@ -22,7 +22,7 @@ pipeline {
            //sleep 30
            //sleep 15
            echo "1runing master"
-           sh "python Count_date.py"
+           sh "python Circle.py"
          }
       }
       stage('Test runing'){

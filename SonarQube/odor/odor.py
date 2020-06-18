@@ -1,53 +1,20 @@
 # -*- coding: utf-8 -*-# 
 #-------------------------------------------------------------------------------
-DATABASES = {
-    'postgresql_db': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'quickdb',
-        'USER': 'sonarsource',
-        'PASSWORD': '123456',
-        'HOST': 'localhost',
-        'PORT': '5432'
-    }
-}
+import datetime
 
-def get_databases_user_password(databases_settings):
-    databases_key = databases_settings.keys()
-    databases_value = databases_settings.values()
-    print(databases_key,databases_value)
-    return
+oder = "异味"
 
-def get_databases(databases_settings):
-    databases_key = databases_settings.keys()
-    databases_value = databases_settings.values()
-    databases_item = databases_settings.items()
-    print(databases_key)
-    print(databases_value)
-    return databases_key
+def opt_date(number):
+    new_time = datetime.datetime.now()
+    if isinstance(number, int):
+        cut_date = new_time + datetime.timedelta(days=number)
+        old_date_str = datetime.datetime.strftime(cut_date, "%Y-%m-%d")
+        # print(old_date_str)
+        Nw_time = "这是今天的时间：{}".format(new_time)
+        print(Nw_time)
+        return old_date_str
 
-def get_data(databases_settings):
-    databases_key = databases_settings.keys()
-    databases_value = databases_settings.values()
-    databases_item = databases_settings.items()
-    print(databases_key)
-    print(databases_value)
-    return databases_key,databases_value
-
-def get_databas(databases_settings):
-    databases_key = databases_settings.keys()
-    databases_value = databases_settings.values()
-    databases_item = databases_settings.items()
-    print(databases_key)
-    print(databases_value)
-    return databases_key,databases_value
-
-import ssl
-
-ctx = ssl._create_unverified_context() # Noncompliant: by default hostname verification is not done
-ctx = ssl._create_stdlib_context() # Noncompliant: by default hostname verification is not done
-
-ctx = ssl.create_default_context()
-ctx.check_hostname = False # Noncompliant
-
-ctx = ssl._create_default_https_context()
-ctx.check_hostname = False # Noncompliant
+def set_type(datatype):
+     Exeamplelist = datatype
+     SetList = list(set(Exeamplelist))
+     return SetList

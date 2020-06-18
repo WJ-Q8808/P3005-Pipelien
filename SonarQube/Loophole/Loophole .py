@@ -1,47 +1,15 @@
-# -*- coding: utf-8 -*-# 
-#-------------------------------------------------------------------------------
 # -*- coding: utf-8 -*-#
-# 随便提交
-import datetime
+#-------------------------------------------------------------------------------
 
-def opt_date(number):
-    new_time = datetime.datetime.now()
-    if isinstance(number, int):
-        cut_date = new_time + datetime.timedelta(days=number)
-        old_date_str = datetime.datetime.strftime(cut_date, "%Y-%m-%d")
-        # print(old_date_str)
-        Nw_time = "这是今天的时间：{}".format(new_time)
-        print(Nw_time)
-        return old_date_str
+Loophole = "漏洞数"
 
-def set_type(datatype):
-     Exeamplelist = datatype
-     SetList = list(set(Exeamplelist))
-     return SetList
+import ssl
 
-def count_number(start):
-    add_number = 0
-    add_number =+ start
-    print(add_number)
-    return add_number
+ctx = ssl._create_unverified_context() # Noncompliant: by default hostname verification is not done
+ctx = ssl._create_stdlib_context() # Noncompliant: by default hostname verification is not done
 
-def count_str(start):
-    add_number = 0
-    add_number =+ start
-    print(add_number)
-    return add_number
+ctx = ssl.create_default_context()
+ctx.check_hostname = False # Noncompliant
 
-def count_list(start):
-    add_number = 0
-    add_number =+ start
-    print(add_number)
-    print(add_number)
-    print(add_number)
-    print(add_number)
-    print(add_number)
-    print(add_number)
-    print(add_number)
-    return add_number
-
-if __name__ == '__main__':
-    count_number(2)
+ctx = ssl._create_default_https_context()
+ctx.check_hostname = False # Noncompliant
