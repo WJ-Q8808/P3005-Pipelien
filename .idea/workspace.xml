@@ -3,19 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a190d58c-ffb4-42f1-bf9d-1d35f65a9c00" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../SY-GitLab-api/shopping-api-app" beforeDir="false" afterPath="$PROJECT_DIR$/../SY-GitLab-api/shopping-api-app" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SonarQube/Circle.py" beforeDir="false" afterPath="$PROJECT_DIR$/SonarQube/Circle.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SonarQube/Loophole/Loophole .py" beforeDir="false" afterPath="$PROJECT_DIR$/SonarQube/Loophole/Loophole .py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SonarQube/bug/bug.py" beforeDir="false" afterPath="$PROJECT_DIR$/SonarQube/bug/bug.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SonarQube/code/code_number.py" beforeDir="false" afterPath="$PROJECT_DIR$/SonarQube/code/code_number.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SonarQube/debt_rate.py" beforeDir="false" afterPath="$PROJECT_DIR$/SonarQube/debt_rate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SonarQube/debt_time.py" beforeDir="false" afterPath="$PROJECT_DIR$/SonarQube/debt_time.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SonarQube/hot/hotspotsecure.py" beforeDir="false" afterPath="$PROJECT_DIR$/SonarQube/hot/hotspotsecure.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SonarQube/odor/odor.py" beforeDir="false" afterPath="$PROJECT_DIR$/SonarQube/odor/odor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SonarQube/repeat/repeat_block.py" beforeDir="false" afterPath="$PROJECT_DIR$/SonarQube/repeat/repeat_block.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SonarQube/repeat/repeat_rate.py" beforeDir="false" afterPath="$PROJECT_DIR$/SonarQube/repeat/repeat_rate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SonarQube/review_rate.py" beforeDir="false" afterPath="$PROJECT_DIR$/SonarQube/review_rate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/other/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/other/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Circle.py" beforeDir="false" afterPath="$PROJECT_DIR$/Circle.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../robot/wujian/robot/.idea/master.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../robot/wujian/robot/.idea/master.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../robot/wujian/robot/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../robot/wujian/robot/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../robot/wujian/robot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../robot/wujian/robot/.idea/workspace.xml" afterDir="false" />
@@ -49,11 +37,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/SonarQube" />
       <recent name="$PROJECT_DIR$/SonarQube/repeat" />
       <recent name="$PROJECT_DIR$/SonarQube/leak" />
       <recent name="$PROJECT_DIR$/SonarQube/hot" />
-      <recent name="$PROJECT_DIR$/SonarQube/flavor" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/../robot/desk-issue/wecha-reminder/ones-tools/wechat-reminder" />

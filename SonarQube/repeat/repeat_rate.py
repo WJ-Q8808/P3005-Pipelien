@@ -1,9 +1,6 @@
-# -*- coding: utf-8 -*-# 
-#-------------------------------------------------------------------------------
+# -*- coding: utf-8 -*-#
 
-
-repeat_rate = "代码：{}".format("重复率")
-
+repeat_block = "{}:代码块".format("重复率")
 
 def count_number(start):
     add_number = 0
@@ -22,12 +19,17 @@ def count_list(start):
     add_number = ["list01","list02"]
     add_number.append(start)
     count_list = len(add_number)
+    print(count_list)
+    print(count_list)
+    print(count_list)
+    print(count_list)
+    print(count_list)
+    print(count_list)
+    print(count_list)
     return count_list
 
 if __name__ == '__main__':
     count_number(2)
     count_str("str1")
     count_list("ces")
-
-
 
