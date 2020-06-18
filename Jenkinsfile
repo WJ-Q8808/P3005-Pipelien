@@ -16,6 +16,13 @@ pipeline {
             sh "pwd"
          }
       }
+      stage('build && SonarQube analysis') {
+         steps {
+            withSonarQubeEnv('WuJianSonarQuebeServers') {
+               sh '/var/lib/jenkins/tools/hudson.plugins.sonar.SonarRunnerInstallation/MySonarQubeScanner/bin/sonar-scanner'
+              }
+           }
+        }
       stage('Code review'){
          steps {
            echo "This is Codeing......"
@@ -46,12 +53,5 @@ pipeline {
             }
          }
       }
-      stage('build && SonarQube analysis') {
-         steps {
-            withSonarQubeEnv('WuJianSonarQuebeServers') {
-               sh '/var/lib/jenkins/tools/hudson.plugins.sonar.SonarRunnerInstallation/MySonarQubeScanner/bin/sonar-scanner'
-              }
-           }
-        }
     }
 }
