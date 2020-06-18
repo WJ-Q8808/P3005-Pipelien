@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-# 
 #-------------------------------------------------------------------------------
+from flask import Response
 
 hotspotsecure = "安全热点"
 DATABASES = {
@@ -12,3 +13,17 @@ DATABASES = {
         'PORT': '5432'
     }
 }
+
+@app.route('/')
+def index():
+    response = Response()
+    response.set_cookie('key', 'value') # Sensitive
+    return response
+
+
+str.format(...)
+str % str
+str + str
+f"SELECT * FROM mytable WHERE name = '{value}'"
+F"SELECT * FROM mytable WHERE name = '{value}'"
+
