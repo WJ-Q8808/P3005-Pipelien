@@ -27,3 +27,8 @@ str + str
 f"SELECT * FROM mytable WHERE name = '{value}'"
 F"SELECT * FROM mytable WHERE name = '{value}'"
 
+import os
+
+def send_signal(pid, sig, pgid):
+    os.kill(pid, sig)  # Sensitive
+    os.killpg(pgid, sig)  # Sensitive
