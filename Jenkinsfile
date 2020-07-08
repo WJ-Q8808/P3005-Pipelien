@@ -5,7 +5,7 @@ pipeline {
           parallel{
               stage('单元测试'){
                  steps {
-                    echo 'Build Module1--01 stage ...'
+                    echo 'Build Module1--01 stage'
                     }
                 }
             }
