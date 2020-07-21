@@ -17,8 +17,7 @@ pipeline {
       }
       stage('build && SonarQube analysis') {
          steps {
-            withSonarQubeEnv('WuJianSonarQuebeServers') {
-               sh '/var/lib/jenkins/tools/hudson.plugins.sonar.SonarRunnerInstallation/MySonarQubeScanner/bin/sonar-scanner'
+               echo 'SonarQube analysis'
               }
            }
         }
@@ -28,7 +27,7 @@ pipeline {
            //sleep 30
            //sleep 15
            echo "1runing master"
-           sh "python Circle.py"
+           //sh "python Circle.py"
          }
       }
       stage('Test runing'){
