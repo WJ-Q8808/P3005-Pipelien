@@ -19,7 +19,6 @@ pipeline {
          steps {
                echo 'SonarQube analysis'
               }
-           }
         }
       stage('Code review'){
          steps {
