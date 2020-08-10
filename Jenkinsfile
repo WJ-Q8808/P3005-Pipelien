@@ -5,7 +5,7 @@ pipeline {
           parallel{
               stage('单元测试'){
                  steps {
-                    sleep 20
+                    //sleep 20
                     echo 'Build Module1--01 stage'
                     }
                 }
@@ -13,7 +13,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                sleep 30
+                //sleep 30
                 echo 'Testing..'
             }
         }
