@@ -29,10 +29,7 @@ pipeline {
       stage('Code review'){
          steps {
            echo "This is Codeing......"
-           //sleep 30
-           //sleep 15
            echo "1runing master"
-           //sh "python Circle.py"
          }
       }
       stage('Test runing'){
@@ -40,7 +37,6 @@ pipeline {
             branch 'F2048'
          }
          steps {
-           //sleep 15
            echo "Test master"
          }
       }
@@ -50,7 +46,6 @@ pipeline {
             script{
                if (env.GIT_BRANCH == 'origin/F2048'){
                   echo "${Description}${BranchName}"
-                  //sleep 25
                   sh "ls"
                }
             }
