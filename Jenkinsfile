@@ -1,5 +1,8 @@
 pipeline {
    agent any
+   tools {
+       maven 'mvn-3.6.3'
+        }
    environment {
        BranchName="F2048"
    }
