@@ -15,11 +15,17 @@ pipeline {
             sh "pwd"
          }
       }
-      stage('build && SonarQube analysis') {
-         steps {
-               echo 'SonarQube analysis'
+      stage("代码编译与分析") {
+            steps {
+              withSonarQubeEnv('ONES-Server') {
+                sh 'sonar:sonar -Dsonar.projectKey=Jenkins-test001-sonarqube'
               }
-        }
+              script {
+                def qg = waitForQualityGate()
+                println qg.status
+             }
+         }
+      }
       stage('Code review'){
          steps {
            echo "This is Codeing......"
