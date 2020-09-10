@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="a190d58c-ffb4-42f1-bf9d-1d35f65a9c00" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../SY-GitLab-api/shopping-api-app" beforeDir="false" afterPath="$PROJECT_DIR$/../SY-GitLab-api/shopping-api-app" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/TestDveOps.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TestDveOps.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SonarQube/review_rate.py" beforeDir="false" afterPath="$PROJECT_DIR$/SonarQube/review_rate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../robot/wujian/robot/.idea/master.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../robot/wujian/robot/.idea/master.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../robot/wujian/robot/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../robot/wujian/robot/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../robot/wujian/robot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../robot/wujian/robot/.idea/workspace.xml" afterDir="false" />
@@ -23,6 +23,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Python Script" />
       </list>
     </option>
@@ -35,19 +36,24 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../robot/desk-issue/wecha-reminder/ones-tools/wechat-reminder" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../robot/desk-issue/wecha-reminder/ones-tools/wechat-reminder/desk-issue-inside" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../robot/desk-issue/wecha-reminder/ones-tools/wechat-reminder/desk-issue-inside/robot" />
+      <recent name="$PROJECT_DIR$/../robot/desk-issue/wecha-reminder/ones-tools/wechat-reminder/desk-issue-inside" />
+      <recent name="$PROJECT_DIR$/../Practice/ONESapi/update" />
+      <recent name="$PROJECT_DIR$/../test/new_ones_api" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/SonarQube" />
-      <recent name="$PROJECT_DIR$/SonarQube/repeat" />
-      <recent name="$PROJECT_DIR$/SonarQube/leak" />
-      <recent name="$PROJECT_DIR$/SonarQube/hot" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/../robot/desk-issue/wecha-reminder/ones-tools/wechat-reminder" />
-      <recent name="$USER_HOME$/Desktop/wu/Disk/PycharmProjects/shopping-api-App" />
+      <recent name="$PROJECT_DIR$/../robot/desk-issue/wecha-reminder/ones-tools/wechat-reminder/desk-issue-inside" />
+      <recent name="$PROJECT_DIR$/../test/new_ones_api" />
+      <recent name="$PROJECT_DIR$/../test/new_ones_api/testcase" />
+      <recent name="$PROJECT_DIR$/../test/new_ones_api/plan" />
+      <recent name="$PROJECT_DIR$/../test/new_ones_api/wiki" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -62,49 +68,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Circle">
-    <configuration name="Circle" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="TestDveOps" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SonarQube" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Circle.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Hello" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="TestDveOps" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SonarQube/bug/bug.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.add_Pipeline">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="TestDveOps" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -126,19 +90,82 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="repeat_block" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="TestDveOps" />
+    <configuration name="add_Pipeline" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ones_api" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SonarQube/repeat" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../test/new_ones_api" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SonarQube/repeat/repeat_block.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../test/new_ones_api/add_Pipeline.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="add_plans" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ones_api" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../test/new_ones_api" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../test/new_ones_api/add_plans.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="add_testcase" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ones_api" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../test/new_ones_api" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../test/new_ones_api/add_testcase.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="res" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="update" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Practice/ONESapi/update" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Practice/ONESapi/update/index.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -160,27 +187,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Practice/ONESapi/update/test_api.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="weely" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="update" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Practice/ONESapi/update" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Practice/ONESapi/update/weely.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -234,11 +240,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Circle" />
-        <item itemvalue="Python.repeat_block" />
-        <item itemvalue="Python.Hello" />
-        <item itemvalue="Python.weely" />
+        <item itemvalue="Python.add_Pipeline" />
         <item itemvalue="Python.test_api" />
+        <item itemvalue="Python.res" />
+        <item itemvalue="Python.add_plans" />
+        <item itemvalue="Python.add_testcase" />
       </list>
     </recent_temporary>
   </component>
