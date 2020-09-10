@@ -18,7 +18,8 @@ pipeline {
       stage("代码编译与分析") {
             steps {
               withSonarQubeEnv('ONES-Server') {
-                sh 'sonar.projectKey=Jenkins-test001-sonarqube'
+                sh 'docker exec -it 4c88a936591b bash'
+                sh '/var/jenkins_home/plugins/ones-jenkins-sonarqube-plugin'
               }
               script {
                 def qg = waitForQualityGate()
