@@ -18,7 +18,7 @@ pipeline {
       stage("代码编译与分析") {
             steps {
               withSonarQubeEnv('ONES-Server') {
-                sh '-Dsonar.projectKey=Jenkins-test001-sonarqube -Dsonar.python.binaries=.'
+                sh 'sonar:sonar -Dsonar.projectKey=Jenkins-test001-sonarqube -Dsonar.python.binaries=.'
               }
               script {
                 def qg = waitForQualityGate()
